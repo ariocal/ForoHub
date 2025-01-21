@@ -1,6 +1,6 @@
 # Challenge FOROHUB 💻
 
-Forohub es un desafio que forma parte del programa d educacion en tecnologia de ORACLE ONE + ALURA LATAM, el cual se centra en la creacion de un foro para una API, en donde el usuario podra escribir dudas sobre algun curso en especifico, espero sea de su agrado vamos..!
+Forohub es un desafio que forma parte del programa de educacion en tecnologia de ORACLE ONE + ALURA LATAM, el cual se centra en la creacion de un foro, el cual usa la arquitectura de una API, en donde el usuario podra escribir dudas sobre algun curso en especifico y estas seran guardadas en la base de datos. ForoHub usa securidad la cual fue implementada con Spring Security, espero sea de su agrado vamos..!
 
 ## Comencemos 🚀
 
@@ -92,12 +92,12 @@ _Finaliza estos pasos con la creación del archivo JAR ejecutable:_
    ```
 
 ### Guia de funcionamiento ⌨️
--Para poder probar el programa es necesario usar insomnia que permitira ejecutar las peticiones http, lo principal para tener acceso es hacer el login y generar el token. Para ello ingresamos el login que seria el usurio y la clave que es nuestra contraseña...
-###### aRealizar login y generacion del token.
+Para poder probar el programa es necesario usar insomnia que permitira ejecutar las peticiones http, lo principal para tener acceso es hacer el login y generar el token. Para ello ingresamos el login que seria el usurio y la clave que es nuestra contraseña...
+###### Realizar login y generacion del token.
 ![Opcion 0](imagenes/imagen1.png)
 
 Cuando ya tengamos el token podemos usarlo para tener los permisos necesarios, si nosotros no generamos y posterior no usamos el token nos va dar error de autenticacion. Como podemos notar en la imagen tenemos un error 403
-###### La autenticacion3.
+###### La autenticacion.
 ![Opcion 1](imagenes/imagen2.png) 
  
 Para evitar eso ingresamos el token en el apartado del Auth y procedemos a relizar un registro de un topico. Y podemos notar en la imagen un codigo 201 indicando que el topico fue creado. No olvidemos que es importante el uso del endpoint y en este caso es una peticion de tipo POST
@@ -105,20 +105,20 @@ Para evitar eso ingresamos el token en el apartado del Auth y procedemos a reliz
 ![Opcion 2](imagenes/imagen3.png)
 
 Lo que queremos el listar todos los topicos podemos hacer una peticion GET y especificamos el point o la ruta especifica.
-###### Listar autores registrados.
+###### Listar todos los topicos.
 ![Opcion 3](imagenes/imagen4.png)
 
 Si queremos buscar un topico en espeficio es igual una peticion de tipo GET pero en la ruta es necesario especificar el ID del topico que deseamos buscar
-###### Listar autores vivos en un determinado año.
+###### Listar topico por ID.
 ![Opcion 4](imagenes/imagen5.png)
 
 
 Para actualizar un topico debemos hacer una peticion de tipo PUT en el endpoint detaller el id del topico que queremos actualizar. Justo como se muestra en la imagen
-###### Listar libros por idiomas.
+###### Actualizar Topico.
 ![Opcion 5](imagenes/imagen6.png)
 
 Para fianlizar podemos elimar un topico haciendo una peticion de tipo delete. Como notan en el cuerpo no se envia nada pero en el endpoint se especifica el ID y tenemos un codigo 200.
-###### Salir del programa.
+###### Eliminar Topico.
 ![Opcion 6](imagenes/imagen7.png)
 
 ## Construido con 🛠️
