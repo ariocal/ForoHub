@@ -69,8 +69,6 @@ _Una serie de pasos para tener el entorno de desarrollo configurado:_
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-security</artifactId>
 </dependency>
-
-   
    ```
 
 3. **Compilar el proyecto**  
