@@ -125,21 +125,21 @@ Para fianlizar podemos elimar un topico haciendo una peticion de tipo delete. Co
 
 _Herramientas utilizadas en el desarrollo del proyecto:_
 
-Dependencias para agregar al crear el proyecto con Spring Initializr:
-Lombok
-Spring Web
-Spring Boot DevTools
-Spring Data JPA
-Flyway Migration
-MySQL Driver
-Validation
-Spring Security
+- Las Dependencias agregadas al crear el proyecto con Spring Initializr fueron:
+Lombok,
+Spring Web,
+Spring Boot DevTools,
+Spring Data JPA,
+Flyway Migration,
+MySQL Driver,
+Validation,
+Spring Security.
 
-Para la seguridad se utilizo:
- Auth0
+- Para la seguridad se utilizo:
+ Auth0,
  JWT
 
-Para realizar pruebas:
+- Para realizar pruebas:
 Insomnia
 
 ## Autor ✒️
